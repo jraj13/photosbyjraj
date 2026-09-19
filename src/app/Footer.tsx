@@ -20,7 +20,7 @@ export default function Footer() {
         <div>
           <h4 className="text-white text-sm font-semibold uppercase tracking-wider">Connect</h4>
           <p className="mt-3 text-sm text-gray-400">Alpharetta, GA & Worldwide</p>
-          <p className="mt-1 text-sm text-gray-400">eventsbyjraj@gmail.com</p>
+          <p className="mt-1 text-sm text-gray-400">contact@photosbyjraj.com</p>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-6 mt-8 pt-8 border-t border-gray-800 text-xs text-center text-gray-500">
