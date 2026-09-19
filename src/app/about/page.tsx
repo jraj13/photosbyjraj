@@ -1,1 +1,31 @@
-import Navbar from "../Navbar"; import Footer from "../Footer"; export default function About() { return (<div className="min-h-screen flex flex-col bg-slate-950 text-white"><Navbar /><main className="flex-grow max-w-5xl mx-auto px-6 py-16 w-full"><div className="text-center max-w-2xl mx-auto mb-12"><h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About PhotosByJraj</h1><p className="mt-4 text-slate-400">Capturing authentic moments with clarity, artistry, and intent.</p></div><div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 md:p-12 space-y-6 text-slate-300 leading-relaxed"><div><h2 className="text-2xl font-bold text-white mb-3">Our Vision</h2><p>At PhotosByJraj, photography is more than preserving memories—it is about capturing the story, atmosphere, and authentic emotion of every moment. Whether it is a individual portrait session, family gathering, corporate event, or cultural celebration, we focus on producing clean, crisp, and high-impact visual artwork.</p></div><div><h2 className="text-2xl font-bold text-white mb-3">What We Do</h2><ul className="list-disc list-inside space-y-2 text-slate-400"><li><strong>Portraits & Headshots:</strong> Professional and lifestyle portraits that highlight personality.</li><li><strong>Events & Cultural Celebrations:</strong> Comprehensive coverage of milestones, corporate functions, and traditional events.</li><li><strong>Creative Direction:</strong> Thoughtful lighting, composition, and professional post-processing for a refined finish.</li></ul></div></div></main><Footer /></div>); }
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+
+export default function About() {
+return (
+<div className="min-h-screen flex flex-col bg-slate-950 text-white">
+  <Navbar />
+  <main className="flex-grow max-w-5xl mx-auto px-6 py-16 w-full">
+    <div className="text-center max-w-2xl mx-auto mb-12">
+      <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About PhotosByJraj</h1>
+      <p className="mt-4 text-slate-400">Capturing authentic moments with clarity, artistry, and intent.</p>
+    </div>
+    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 md:p-12 space-y-6 text-slate-300 leading-relaxed">
+      <div>
+        <h2 className="text-2xl font-bold text-white mb-3">Our Vision</h2>
+        <p>At PhotosByJraj, photography is more than preserving memoriesâ€”it is about capturing the story, atmosphere, and authentic emotion of every moment. Whether it is an individual portrait session, family gathering, corporate event, or cultural celebration, we focus on producing clean, crisp, and high-impact visual artwork.</p>
+      </div>
+      <div>
+        <h2 className="text-2xl font-bold text-white mb-3">What We Do</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-400">
+          <li><strong>Portraits & Headshots:</strong> Professional and lifestyle portraits that highlight personality.</li>
+          <li><strong>Events & Cultural Celebrations:</strong> Comprehensive coverage of milestones, corporate functions, and traditional events.</li>
+          <li><strong>Creative Direction:</strong> Thoughtful lighting, composition, and professional post-processing for a refined finish.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</div>
+);
+}
