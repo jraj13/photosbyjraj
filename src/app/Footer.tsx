@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h3 className="text-white text-lg font-bold">PhotosByJraj</h3>
-          <p className="mt-2 text-sm text-gray-400">Capturing life's timeless moments with clarity and artistry.</p>
+          <p className="mt-2 text-sm text-gray-400">Capturing life&apos;s timeless moments with clarity and artistry.</p>
         </div>
         <div>
           <h4 className="text-white text-sm font-semibold uppercase tracking-wider">Quick Links</h4>
@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-6 mt-8 pt-8 border-t border-gray-800 text-xs text-center text-gray-500">
-        © {new Date().getFullYear()} PhotosByJraj. All rights reserved.
+        Â© {new Date().getFullYear()} PhotosByJraj. All rights reserved.
       </div>
     </footer>
   );
